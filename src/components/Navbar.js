@@ -6,7 +6,7 @@ const Navbar = () =>
 	return(
 		<div className="container">
 			<nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-				<div id="navbar-brand" className="navbar-brand">Website</div>
+				<div id="navbar-brand" className="navbar-brand">ReactApp Site</div>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			        <span className="navbar-toggler-icon"></span>
 		      	</button>
