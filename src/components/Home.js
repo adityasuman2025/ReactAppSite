@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import axios from 'axios';
 
+import { connect } from 'react-redux';
+
+
 class Home extends Component
 {
 	state = {
@@ -22,6 +25,7 @@ class Home extends Component
 	render()
 	{
 		const posts = this.state.posts;
+
 		const postList = posts.length ? (
 			posts.map(post =>
 				{
@@ -44,7 +48,6 @@ class Home extends Component
 			</div>
 		)
 	}
-
 }
 
 export default Home;
